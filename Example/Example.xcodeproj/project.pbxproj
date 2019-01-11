@@ -14,6 +14,8 @@
 		184F47D821E88CFB0007FDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F47D621E88CFB0007FDCC /* LaunchScreen.storyboard */; };
 		184F47E321E88CFB0007FDCC /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F47E221E88CFB0007FDCC /* ExampleTests.swift */; };
 		184F47EE21E88CFB0007FDCC /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F47ED21E88CFB0007FDCC /* ExampleUITests.swift */; };
+		184F484E21E88F750007FDCC /* UniqueKeysGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F484B21E88F740007FDCC /* UniqueKeysGeneration.swift */; };
+		184F484F21E88F750007FDCC /* ShaHashesWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F484D21E88F740007FDCC /* ShaHashesWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		184F47E921E88CFB0007FDCC /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184F47ED21E88CFB0007FDCC /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		184F47EF21E88CFB0007FDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F484B21E88F740007FDCC /* UniqueKeysGeneration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueKeysGeneration.swift; sourceTree = "<group>"; };
+		184F484D21E88F740007FDCC /* ShaHashesWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaHashesWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		184F47C121E88CFA0007FDCC = {
 			isa = PBXGroup;
 			children = (
+				184F484C21E88F740007FDCC /* ShaHashesWrapper */,
+				184F484A21E88F740007FDCC /* UniqueKeysGeneration */,
 				184F47CC21E88CFA0007FDCC /* Example */,
 				184F47E121E88CFB0007FDCC /* ExampleTests */,
 				184F47EC21E88CFB0007FDCC /* ExampleUITests */,
@@ -123,6 +129,24 @@
 				184F47EF21E88CFB0007FDCC /* Info.plist */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		184F484A21E88F740007FDCC /* UniqueKeysGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				184F484B21E88F740007FDCC /* UniqueKeysGeneration.swift */,
+			);
+			name = UniqueKeysGeneration;
+			path = ../UniqueKeysGeneration;
+			sourceTree = "<group>";
+		};
+		184F484C21E88F740007FDCC /* ShaHashesWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				184F484D21E88F740007FDCC /* ShaHashesWrapper.swift */,
+			);
+			name = ShaHashesWrapper;
+			path = ../ShaHashesWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				184F47D021E88CFA0007FDCC /* ViewController.swift in Sources */,
+				184F484E21E88F750007FDCC /* UniqueKeysGeneration.swift in Sources */,
+				184F484F21E88F750007FDCC /* ShaHashesWrapper.swift in Sources */,
 				184F47CE21E88CFA0007FDCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
