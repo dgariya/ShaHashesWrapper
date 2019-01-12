@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.author             = { "Dev" => "devgariya.gariya@gmail.com" }
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/dgariya/ShaHashesWrapper.git", :tag => "#{s.version}" }
-  s.source_files  = "ShaHashesWrapper/**/*, ShaHashesWrapper/UniqueKeysGeneration/"
+  s.source_files  = "ShaHashesWrapper/"
 
 end
