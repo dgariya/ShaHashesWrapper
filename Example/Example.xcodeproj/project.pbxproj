@@ -15,7 +15,7 @@
 		184F47E321E88CFB0007FDCC /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F47E221E88CFB0007FDCC /* ExampleTests.swift */; };
 		184F47EE21E88CFB0007FDCC /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F47ED21E88CFB0007FDCC /* ExampleUITests.swift */; };
 		184F484F21E88F750007FDCC /* ShaHashesWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F484D21E88F740007FDCC /* ShaHashesWrapper.swift */; };
-		184F488C21E9D5F60007FDCC /* UniqueKeysGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F488B21E9D5F60007FDCC /* UniqueKeysGeneration.swift */; };
+		184F488E21E9D8380007FDCC /* UniqueKeysGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F488D21E9D8380007FDCC /* UniqueKeysGeneration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		184F47ED21E88CFB0007FDCC /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		184F47EF21E88CFB0007FDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184F484D21E88F740007FDCC /* ShaHashesWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaHashesWrapper.swift; sourceTree = "<group>"; };
-		184F488B21E9D5F60007FDCC /* UniqueKeysGeneration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueKeysGeneration.swift; sourceTree = "<group>"; };
+		184F488D21E9D8380007FDCC /* UniqueKeysGeneration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueKeysGeneration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,19 +133,11 @@
 		184F484C21E88F740007FDCC /* ShaHashesWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				184F488A21E9D5F60007FDCC /* UniqueKeysGeneration */,
+				184F488D21E9D8380007FDCC /* UniqueKeysGeneration.swift */,
 				184F484D21E88F740007FDCC /* ShaHashesWrapper.swift */,
 			);
 			name = ShaHashesWrapper;
 			path = ../ShaHashesWrapper;
-			sourceTree = "<group>";
-		};
-		184F488A21E9D5F60007FDCC /* UniqueKeysGeneration */ = {
-			isa = PBXGroup;
-			children = (
-				184F488B21E9D5F60007FDCC /* UniqueKeysGeneration.swift */,
-			);
-			path = UniqueKeysGeneration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184F488C21E9D5F60007FDCC /* UniqueKeysGeneration.swift in Sources */,
+				184F488E21E9D8380007FDCC /* UniqueKeysGeneration.swift in Sources */,
 				184F47D021E88CFA0007FDCC /* ViewController.swift in Sources */,
 				184F484F21E88F750007FDCC /* ShaHashesWrapper.swift in Sources */,
 				184F47CE21E88CFA0007FDCC /* AppDelegate.swift in Sources */,
